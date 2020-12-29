@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="accets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Teko:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <!-- <div class="header__title"> -->
+            <h1>The Unconventional Calculator</h1>
+        <!-- </div> -->
+    </header>
+    <div class="container"> 
+        <section id="calculator" class="border">
+            <input type="number" id="input-number" class="entry-field" />
+            <div id="calc-actions">
+                <button type="button" id="btn-add" class="btn">+</button>
+                <button type="button" id="btn-subtract" class="btn">-</button>
+                <button type="button" id="btn-multiply" class="btn">*</button>
+                <button type="button" id="btn-dovide" class="btn">/</button>
+            </div>
+        </section>
+        <section id="results" class="border">
+            <h2 id="current-calculation">0</h2>
+            <h2>Result: <span id="current-result">0</span></h2>
+        </section>
+    </div>
+
+    <script src="accets/scripts/vendor.js"></script>
+    <script src="accets/scripts/app.js"></script>
+</body>
+</html>
