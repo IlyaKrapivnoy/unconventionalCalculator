@@ -17,7 +17,7 @@ function add() {
     createAndWriteOutput('+', initialResult, enteredNumber);
 }
 
-function subrtact() {
+function subtract() {
     const enteredNumber = getUserNumberInput();
     const initialResult = currentResult;
     currentResult = currentResult - enteredNumber;
@@ -39,9 +39,10 @@ function divide() {
 }
 
 addBtn.addEventListener('click', add);
-subtractBtn.addEventListener('click', subtract);
 multiplyBtn.addEventListener('click', multiply);
+subtractBtn.addEventListener('click', subtract);
 divideBtn.addEventListener('click', divide);
+
 
 let calculationDescription = 0;
 
