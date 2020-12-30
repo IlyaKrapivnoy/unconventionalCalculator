@@ -61,6 +61,10 @@ header {
     text-align: center;
     width: 40%;
 }
+#results h2:first-child {
+    margin-bottom: 10px;
+    color: #726f6f;
+}
  /* btn  */
 .btn { 
     width: 50px;
